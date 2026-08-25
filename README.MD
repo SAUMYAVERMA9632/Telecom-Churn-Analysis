@@ -1,12 +1,12 @@
 # Telecom Customer Churn Analysis Using Pandas
 
-## 📌 Project Overview
+##  Project Overview
 
 This project analyzes customer churn data to understand customer behavior and identify the factors associated with customer churn.
 
 The analysis was performed using **Python, Pandas, NumPy, Matplotlib, and Seaborn**. The project includes data cleaning, exploratory data analysis, and visualizations to identify patterns related to customer churn.
 
-## 🎯 Objectives
+##  Objectives
 
 * Analyze the overall customer churn rate.
 * Understand churn patterns across different customer groups.
@@ -15,7 +15,7 @@ The analysis was performed using **Python, Pandas, NumPy, Matplotlib, and Seabor
 * Explore how different telecom services are associated with customer churn.
 * Generate visual insights that can help understand customer retention.
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 * **Python**
 * **Pandas** – Data cleaning and analysis
@@ -24,7 +24,7 @@ The analysis was performed using **Python, Pandas, NumPy, Matplotlib, and Seabor
 * **Seaborn** – Statistical visualization
 * **Jupyter Notebook**
 
-## 📂 Dataset
+##  Dataset
 
 The project uses a telecom customer churn dataset containing customer information such as:
 
@@ -45,7 +45,7 @@ The project uses a telecom customer churn dataset containing customer informatio
 * Churn
 * Total Charges
 
-## 🔍 Data Cleaning
+## Data Cleaning
 
 The following preprocessing steps were performed:
 
@@ -57,7 +57,7 @@ The following preprocessing steps were performed:
 * Checked for duplicate records.
 * Converted the `SeniorCitizen` values from `1/0` into `yes/no` for easier interpretation.
 
-## 📊 Exploratory Data Analysis
+##  Exploratory Data Analysis
 
 Several visualizations were created to understand customer churn.
 
@@ -118,7 +118,7 @@ Customer churn was analyzed across different payment methods.
 **Key finding:**
 Customers using **Electronic Check** show a comparatively higher churn count than customers using other payment methods.
 
-## 📈 Key Insights
+##  Key Insights
 
 Based on the analysis:
 
@@ -129,7 +129,7 @@ Based on the analysis:
 5. **Fiber optic** customers show a comparatively high number of churned customers.
 6. Customers using **Electronic Check** have a higher churn count compared with other payment methods.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 Telecom-Churn-Analysis/
@@ -139,7 +139,7 @@ Telecom-Churn-Analysis/
 └── README.md
 ```
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 1. Clone this repository.
 2. Make sure Python is installed.
@@ -159,7 +159,7 @@ jupyter notebook
 6. Make sure `customer churn.csv` is in the same directory as the notebook.
 7. Run the cells sequentially to reproduce the analysis.
 
-## 📌 Conclusion
+##  Conclusion
 
 This project demonstrates how **Pandas, Matplotlib, and Seaborn** can be used to clean, analyze, and visualize telecom customer data.
 
